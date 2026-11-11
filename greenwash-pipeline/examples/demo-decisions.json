@@ -1,0 +1,109 @@
+{
+  "document_id": "db71b3baaebb006f4a5e5c5b",
+  "reviewer": "SYNTHETIC_DEMO_REVIEWER",
+  "decisions": [
+    {
+      "id": "8aba6e71ca793abf84c510be",
+      "status": "accepted",
+      "fields": {
+        "metric": "scope1",
+        "value": 12000.0,
+        "unit": "tCO2e",
+        "year": 2024,
+        "geography": "global",
+        "organizational_boundary": "consolidated_group",
+        "scope2_method": null,
+        "period_basis": "calendar_year"
+      },
+      "note": "Synthetic demonstration only."
+    },
+    {
+      "id": "577cfc3d41abe0d1669c7ec2",
+      "status": "accepted",
+      "fields": {
+        "metric": "scope2",
+        "value": 3000.0,
+        "unit": "tCO2e",
+        "year": 2024,
+        "geography": "global",
+        "organizational_boundary": "consolidated_group",
+        "scope2_method": "location-based",
+        "period_basis": "calendar_year"
+      },
+      "note": "Synthetic demonstration only."
+    },
+    {
+      "id": "ad53d04b00d270060790ea2c",
+      "status": "accepted",
+      "fields": {
+        "metric": "scope2",
+        "value": 1000.0,
+        "unit": "tCO2e",
+        "year": 2024,
+        "geography": "global",
+        "organizational_boundary": "consolidated_group",
+        "scope2_method": "market-based",
+        "period_basis": "calendar_year"
+      },
+      "note": "Synthetic demonstration only."
+    },
+    {
+      "id": "796887f90de275d0bafc8f85",
+      "status": "accepted",
+      "fields": {
+        "metric": "revenue",
+        "value": 200000000.0,
+        "unit": "USD",
+        "year": 2024,
+        "geography": "global",
+        "organizational_boundary": "consolidated_group",
+        "scope2_method": null,
+        "period_basis": "calendar_year"
+      },
+      "note": "Synthetic demonstration only."
+    },
+    {
+      "id": "ee80449463ad46fc86b8d474",
+      "status": "rejected",
+      "fields": {
+        "metric": "scope1",
+        "value": 9000.0,
+        "unit": "tCO2e",
+        "year": null,
+        "geography": null,
+        "organizational_boundary": null,
+        "scope2_method": null,
+        "period_basis": null
+      },
+      "note": "Synthetic demonstration only."
+    },
+    {
+      "id": "a9f0d33c69564ee5757d4de7",
+      "status": "accepted",
+      "fields": {
+        "claim_type": "realized_result",
+        "metric": "intensity",
+        "baseline_year": 2020,
+        "target_year": null,
+        "geography": "global",
+        "organizational_boundary": "consolidated_group",
+        "assessment_status": "not_assessed"
+      },
+      "note": "Synthetic demonstration only."
+    },
+    {
+      "id": "6c9ee7ebd9c7bcbfe4565b52",
+      "status": "accepted",
+      "fields": {
+        "claim_type": "future_target",
+        "metric": "absolute_emissions",
+        "baseline_year": 2020,
+        "target_year": 2030,
+        "geography": "global",
+        "organizational_boundary": "consolidated_group",
+        "assessment_status": "not_assessed"
+      },
+      "note": "Synthetic demonstration only."
+    }
+  ]
+}

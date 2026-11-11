@@ -1,0 +1,119 @@
+{
+  "document_sha256": "c8895cb87129f4b6c19e8bce1d34d81b0915a45a20856d9d022b4f0c3381e18c",
+  "annotation_source": "Manual visual check of PDF physical page 92; development sample, not held-out test",
+  "annotated_pages": [
+    92
+  ],
+  "annotated_metrics": [
+    "scope1",
+    "scope2",
+    "scope3"
+  ],
+  "observations": [
+    {
+      "page": 92,
+      "metric": "scope1",
+      "year": 2020,
+      "unit": "tCO2e",
+      "value": 40949
+    },
+    {
+      "page": 92,
+      "metric": "scope1",
+      "year": 2021,
+      "unit": "tCO2e",
+      "value": 40611
+    },
+    {
+      "page": 92,
+      "metric": "scope1",
+      "year": 2022,
+      "unit": "tCO2e",
+      "value": 42188
+    },
+    {
+      "page": 92,
+      "metric": "scope1",
+      "year": 2023,
+      "unit": "tCO2e",
+      "value": 42466
+    },
+    {
+      "page": 92,
+      "metric": "scope1",
+      "year": 2024,
+      "unit": "tCO2e",
+      "value": 51776
+    },
+    {
+      "page": 92,
+      "metric": "scope2",
+      "year": 2020,
+      "unit": "tCO2e",
+      "value": 976574
+    },
+    {
+      "page": 92,
+      "metric": "scope2",
+      "year": 2021,
+      "unit": "tCO2e",
+      "value": 1035654
+    },
+    {
+      "page": 92,
+      "metric": "scope2",
+      "year": 2022,
+      "unit": "tCO2e",
+      "value": 1012456
+    },
+    {
+      "page": 92,
+      "metric": "scope2",
+      "year": 2023,
+      "unit": "tCO2e",
+      "value": 1075885
+    },
+    {
+      "page": 92,
+      "metric": "scope2",
+      "year": 2024,
+      "unit": "tCO2e",
+      "value": 1048178
+    },
+    {
+      "page": 92,
+      "metric": "scope3",
+      "year": 2020,
+      "unit": "tCO2e",
+      "value": 7290
+    },
+    {
+      "page": 92,
+      "metric": "scope3",
+      "year": 2021,
+      "unit": "tCO2e",
+      "value": 3137
+    },
+    {
+      "page": 92,
+      "metric": "scope3",
+      "year": 2022,
+      "unit": "tCO2e",
+      "value": 3003
+    },
+    {
+      "page": 92,
+      "metric": "scope3",
+      "year": 2023,
+      "unit": "tCO2e",
+      "value": 1512482
+    },
+    {
+      "page": 92,
+      "metric": "scope3",
+      "year": 2024,
+      "unit": "tCO2e",
+      "value": 1514495
+    }
+  ]
+}

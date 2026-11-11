@@ -1,0 +1,11 @@
+SYNTHETIC DEMO ONLY - fictional company, not real corporate evidence.
+Demo Manufacturing annual sustainability report. Published 2025-04-01.
+All figures below use the global consolidated group boundary and calendar-year periods.
+2024 Scope 1 emissions: 12,000 tCO2e.
+2024 Scope 2 (location-based) emissions: 3,000 tCO2e.
+2024 Scope 2 (market-based) emissions: 1,000 tCO2e.
+2024 Revenue: USD 200 million.
+We reduced emissions intensity by 20% compared with 2020.
+We aim to reduce absolute Scope 1 emissions by 30% by 2030 against 2020.
+Scope 1 emissions: 9,000 tCO2e. This line deliberately omits its year.
+This document is a pipeline test, not a source for investment decisions.

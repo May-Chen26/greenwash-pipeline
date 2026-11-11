@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "greenwash-pipeline"
+# Version lives in greenwash/__init__.py only. Two copies drifted apart before (the module said
+# 0.4.0 while this file said 0.5.0), which is what a single source of truth is meant to prevent.
+dynamic = ["version"]
+description = "Evidence-first extraction of emission figures and green claims from English and Chinese sustainability reports, with explicit human review"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["esg", "greenwashing", "sustainability-report", "carbon-emissions", "chinese", "nlp"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Text Processing :: Linguistic",
+    "Intended Audience :: Financial and Insurance Industry",
+]
+dependencies = []
+
+[project.optional-dependencies]
+# Core is standard library only. PDF input needs PyMuPDF; Poppler's pdftotext is a system
+# dependency it cannot declare.
+pdf = ["PyMuPDF>=1.26"]
+
+[project.urls]
+Homepage = "https://github.com/erikjin12345/greenwash-pipeline"
+Issues = "https://github.com/erikjin12345/greenwash-pipeline/issues"
+
+[project.scripts]
+greenwash = "greenwash.pipeline:main"
+
+# Explicit, not find: tests/, examples/ and docs/ sit next to the package and must not be
+# installed into site-packages.
+[tool.setuptools]
+packages = ["greenwash"]
+
+[tool.setuptools.dynamic]
+version = {attr = "greenwash.__version__"}

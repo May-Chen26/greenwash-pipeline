@@ -1,0 +1,300 @@
+{
+  "schema_version": "1.2",
+  "extractor_version": "rules-0.4.0",
+  "created_at": "2026-10-03T11:10:34.816915+00:00",
+  "as_of": "2026-10-03",
+  "document": {
+    "id": "db71b3baaebb006f4a5e5c5b",
+    "company_id": "DEMO",
+    "filename": "synthetic_report.txt",
+    "sha256": "622989fa79f554891c94bfb5bcc8e5e5357b0f0ea2d82355bc92cf7a4bd731f5",
+    "published_at": "2025-04-01",
+    "publication_date_source": "user_supplied_not_independently_verified",
+    "synthetic": true
+  },
+  "pages": [
+    {
+      "page": 1,
+      "text": "SYNTHETIC DEMO ONLY - fictional company, not real corporate evidence.\nDemo Manufacturing annual sustainability report. Published 2025-04-01.\nAll figures below use the global consolidated group boundary and calendar-year periods.\n2024 Scope 1 emissions: 12,000 tCO2e.\n2024 Scope 2 (location-based) emissions: 3,000 tCO2e.\n2024 Scope 2 (market-based) emissions: 1,000 tCO2e.\n2024 Revenue: USD 200 million.\nWe reduced emissions intensity by 20% compared with 2020.\nWe aim to reduce absolute Scope 1 emissions by 30% by 2030 against 2020.\nScope 1 emissions: 9,000 tCO2e. This line deliberately omits its year.\nThis document is a pipeline test, not a source for investment decisions.\n"
+    }
+  ],
+  "passages": [
+    {
+      "evidence": {
+        "document_id": "db71b3baaebb006f4a5e5c5b",
+        "page": 1,
+        "line": 4,
+        "quote": "2024 Scope 1 emissions: 12,000 tCO2e."
+      },
+      "context": "Demo Manufacturing annual sustainability report. Published 2025-04-01.\nAll figures below use the global consolidated group boundary and calendar-year periods.\n2024 Scope 1 emissions: 12,000 tCO2e.\n2024 Scope 2 (location-based) emissions: 3,000 tCO2e.\n2024 Scope 2 (market-based) emissions: 1,000 tCO2e."
+    },
+    {
+      "evidence": {
+        "document_id": "db71b3baaebb006f4a5e5c5b",
+        "page": 1,
+        "line": 5,
+        "quote": "2024 Scope 2 (location-based) emissions: 3,000 tCO2e."
+      },
+      "context": "All figures below use the global consolidated group boundary and calendar-year periods.\n2024 Scope 1 emissions: 12,000 tCO2e.\n2024 Scope 2 (location-based) emissions: 3,000 tCO2e.\n2024 Scope 2 (market-based) emissions: 1,000 tCO2e.\n2024 Revenue: USD 200 million."
+    },
+    {
+      "evidence": {
+        "document_id": "db71b3baaebb006f4a5e5c5b",
+        "page": 1,
+        "line": 6,
+        "quote": "2024 Scope 2 (market-based) emissions: 1,000 tCO2e."
+      },
+      "context": "2024 Scope 1 emissions: 12,000 tCO2e.\n2024 Scope 2 (location-based) emissions: 3,000 tCO2e.\n2024 Scope 2 (market-based) emissions: 1,000 tCO2e.\n2024 Revenue: USD 200 million.\nWe reduced emissions intensity by 20% compared with 2020."
+    },
+    {
+      "evidence": {
+        "document_id": "db71b3baaebb006f4a5e5c5b",
+        "page": 1,
+        "line": 7,
+        "quote": "2024 Revenue: USD 200 million."
+      },
+      "context": "2024 Scope 2 (location-based) emissions: 3,000 tCO2e.\n2024 Scope 2 (market-based) emissions: 1,000 tCO2e.\n2024 Revenue: USD 200 million.\nWe reduced emissions intensity by 20% compared with 2020.\nWe aim to reduce absolute Scope 1 emissions by 30% by 2030 against 2020."
+    },
+    {
+      "evidence": {
+        "document_id": "db71b3baaebb006f4a5e5c5b",
+        "page": 1,
+        "line": 8,
+        "quote": "We reduced emissions intensity by 20% compared with 2020."
+      },
+      "context": "2024 Scope 2 (market-based) emissions: 1,000 tCO2e.\n2024 Revenue: USD 200 million.\nWe reduced emissions intensity by 20% compared with 2020.\nWe aim to reduce absolute Scope 1 emissions by 30% by 2030 against 2020.\nScope 1 emissions: 9,000 tCO2e. This line deliberately omits its year."
+    },
+    {
+      "evidence": {
+        "document_id": "db71b3baaebb006f4a5e5c5b",
+        "page": 1,
+        "line": 9,
+        "quote": "We aim to reduce absolute Scope 1 emissions by 30% by 2030 against 2020."
+      },
+      "context": "2024 Revenue: USD 200 million.\nWe reduced emissions intensity by 20% compared with 2020.\nWe aim to reduce absolute Scope 1 emissions by 30% by 2030 against 2020.\nScope 1 emissions: 9,000 tCO2e. This line deliberately omits its year.\nThis document is a pipeline test, not a source for investment decisions."
+    },
+    {
+      "evidence": {
+        "document_id": "db71b3baaebb006f4a5e5c5b",
+        "page": 1,
+        "line": 10,
+        "quote": "Scope 1 emissions: 9,000 tCO2e. This line deliberately omits its year."
+      },
+      "context": "We reduced emissions intensity by 20% compared with 2020.\nWe aim to reduce absolute Scope 1 emissions by 30% by 2030 against 2020.\nScope 1 emissions: 9,000 tCO2e. This line deliberately omits its year.\nThis document is a pipeline test, not a source for investment decisions."
+    }
+  ],
+  "records": [
+    {
+      "company_id": "DEMO",
+      "evidence": {
+        "document_id": "db71b3baaebb006f4a5e5c5b",
+        "page": 1,
+        "line": 4,
+        "quote": "2024 Scope 1 emissions: 12,000 tCO2e."
+      },
+      "context": "Demo Manufacturing annual sustainability report. Published 2025-04-01.\nAll figures below use the global consolidated group boundary and calendar-year periods.\n2024 Scope 1 emissions: 12,000 tCO2e.\n2024 Scope 2 (location-based) emissions: 3,000 tCO2e.\n2024 Scope 2 (market-based) emissions: 1,000 tCO2e.",
+      "review_status": "pending",
+      "available_at": "2025-04-01",
+      "id": "8aba6e71ca793abf84c510be",
+      "kind": "observation",
+      "fields": {
+        "metric": "scope1",
+        "value": 12000.0,
+        "unit": "tCO2e",
+        "year": 2024,
+        "geography": null,
+        "organizational_boundary": null,
+        "scope2_method": null,
+        "period_basis": null
+      }
+    },
+    {
+      "company_id": "DEMO",
+      "evidence": {
+        "document_id": "db71b3baaebb006f4a5e5c5b",
+        "page": 1,
+        "line": 5,
+        "quote": "2024 Scope 2 (location-based) emissions: 3,000 tCO2e."
+      },
+      "context": "All figures below use the global consolidated group boundary and calendar-year periods.\n2024 Scope 1 emissions: 12,000 tCO2e.\n2024 Scope 2 (location-based) emissions: 3,000 tCO2e.\n2024 Scope 2 (market-based) emissions: 1,000 tCO2e.\n2024 Revenue: USD 200 million.",
+      "review_status": "pending",
+      "available_at": "2025-04-01",
+      "id": "577cfc3d41abe0d1669c7ec2",
+      "kind": "observation",
+      "fields": {
+        "metric": "scope2",
+        "value": 3000.0,
+        "unit": "tCO2e",
+        "year": 2024,
+        "geography": null,
+        "organizational_boundary": null,
+        "scope2_method": "location-based",
+        "period_basis": null
+      }
+    },
+    {
+      "company_id": "DEMO",
+      "evidence": {
+        "document_id": "db71b3baaebb006f4a5e5c5b",
+        "page": 1,
+        "line": 6,
+        "quote": "2024 Scope 2 (market-based) emissions: 1,000 tCO2e."
+      },
+      "context": "2024 Scope 1 emissions: 12,000 tCO2e.\n2024 Scope 2 (location-based) emissions: 3,000 tCO2e.\n2024 Scope 2 (market-based) emissions: 1,000 tCO2e.\n2024 Revenue: USD 200 million.\nWe reduced emissions intensity by 20% compared with 2020.",
+      "review_status": "pending",
+      "available_at": "2025-04-01",
+      "id": "ad53d04b00d270060790ea2c",
+      "kind": "observation",
+      "fields": {
+        "metric": "scope2",
+        "value": 1000.0,
+        "unit": "tCO2e",
+        "year": 2024,
+        "geography": null,
+        "organizational_boundary": null,
+        "scope2_method": "market-based",
+        "period_basis": null
+      }
+    },
+    {
+      "company_id": "DEMO",
+      "evidence": {
+        "document_id": "db71b3baaebb006f4a5e5c5b",
+        "page": 1,
+        "line": 7,
+        "quote": "2024 Revenue: USD 200 million."
+      },
+      "context": "2024 Scope 2 (location-based) emissions: 3,000 tCO2e.\n2024 Scope 2 (market-based) emissions: 1,000 tCO2e.\n2024 Revenue: USD 200 million.\nWe reduced emissions intensity by 20% compared with 2020.\nWe aim to reduce absolute Scope 1 emissions by 30% by 2030 against 2020.",
+      "review_status": "pending",
+      "available_at": "2025-04-01",
+      "id": "796887f90de275d0bafc8f85",
+      "kind": "observation",
+      "fields": {
+        "metric": "revenue",
+        "value": 200000000.0,
+        "unit": "USD",
+        "year": 2024,
+        "geography": null,
+        "organizational_boundary": null,
+        "scope2_method": null,
+        "period_basis": null
+      }
+    },
+    {
+      "company_id": "DEMO",
+      "evidence": {
+        "document_id": "db71b3baaebb006f4a5e5c5b",
+        "page": 1,
+        "line": 10,
+        "quote": "Scope 1 emissions: 9,000 tCO2e. This line deliberately omits its year."
+      },
+      "context": "We reduced emissions intensity by 20% compared with 2020.\nWe aim to reduce absolute Scope 1 emissions by 30% by 2030 against 2020.\nScope 1 emissions: 9,000 tCO2e. This line deliberately omits its year.\nThis document is a pipeline test, not a source for investment decisions.",
+      "review_status": "pending",
+      "available_at": "2025-04-01",
+      "id": "ee80449463ad46fc86b8d474",
+      "kind": "observation",
+      "fields": {
+        "metric": "scope1",
+        "value": 9000.0,
+        "unit": "tCO2e",
+        "year": null,
+        "geography": null,
+        "organizational_boundary": null,
+        "scope2_method": null,
+        "period_basis": null
+      }
+    },
+    {
+      "id": "a9f0d33c69564ee5757d4de7",
+      "kind": "claim",
+      "company_id": "DEMO",
+      "evidence": {
+        "document_id": "db71b3baaebb006f4a5e5c5b",
+        "page": 1,
+        "line": null,
+        "quote": "We reduced emissions intensity by 20% compared with 2020.",
+        "block_id": "p1-b0",
+        "bbox": null,
+        "normalized_source_text": "SYNTHETIC DEMO ONLY - fictional company, not real corporate evidence. Demo Manufacturing annual sustainability report. Published 2025-04-01. All figures below use the global consolidated group boundary and calendar-year periods. 2024 Scope 1 emissions: 12,000 tCO2e. 2024 Scope 2 (location-based) emissions: 3,000 tCO2e. 2024 Scope 2 (market-based) emissions: 1,000 tCO2e. 2024 Revenue: USD 200 million. We reduced emissions intensity by 20% compared with 2020. We aim to reduce absolute Scope 1 emissions by 30% by 2030 against 2020. Scope 1 emissions: 9,000 tCO2e. This line deliberately omits its year. This document is a pipeline test, not a source for investment decisions.",
+        "raw_source_text": "SYNTHETIC DEMO ONLY - fictional company, not real corporate evidence.\nDemo Manufacturing annual sustainability report. Published 2025-04-01.\nAll figures below use the global consolidated group boundary and calendar-year periods.\n2024 Scope 1 emissions: 12,000 tCO2e.\n2024 Scope 2 (location-based) emissions: 3,000 tCO2e.\n2024 Scope 2 (market-based) emissions: 1,000 tCO2e.\n2024 Revenue: USD 200 million.\nWe reduced emissions intensity by 20% compared with 2020.\nWe aim to reduce absolute Scope 1 emissions by 30% by 2030 against 2020.\nScope 1 emissions: 9,000 tCO2e. This line deliberately omits its year.\nThis document is a pipeline test, not a source for investment decisions.\n",
+        "char_start": 404,
+        "char_end": 461
+      },
+      "context": "SYNTHETIC DEMO ONLY - fictional company, not real corporate evidence. Demo Manufacturing annual sustainability report. Published 2025-04-01. All figures below use the global consolidated group boundary and calendar-year periods. 2024 Scope 1 emissions: 12,000 tCO2e. 2024 Scope 2 (location-based) emissions: 3,000 tCO2e. 2024 Scope 2 (market-based) emissions: 1,000 tCO2e. 2024 Revenue: USD 200 million. We reduced emissions intensity by 20% compared with 2020. We aim to reduce absolute Scope 1 emissions by 30% by 2030 against 2020. Scope 1 emissions: 9,000 tCO2e. This line deliberately omits its year. This document is a pipeline test, not a source for investment decisions.",
+      "review_status": "pending",
+      "available_at": "2025-04-01",
+      "extraction_method": "text_paragraph_sentence",
+      "needs_context_review": true,
+      "quality_flags": [],
+      "percentages_mentioned": [
+        "20%"
+      ],
+      "fields": {
+        "claim_type": "realized_result",
+        "metric": "intensity",
+        "baseline_year": 2020,
+        "target_year": null,
+        "geography": null,
+        "organizational_boundary": null,
+        "assessment_status": "not_assessed"
+      },
+      "duplicate_group": "e7d8759dfbb11301"
+    },
+    {
+      "id": "6c9ee7ebd9c7bcbfe4565b52",
+      "kind": "claim",
+      "company_id": "DEMO",
+      "evidence": {
+        "document_id": "db71b3baaebb006f4a5e5c5b",
+        "page": 1,
+        "line": null,
+        "quote": "We aim to reduce absolute Scope 1 emissions by 30% by 2030 against 2020.",
+        "block_id": "p1-b0",
+        "bbox": null,
+        "normalized_source_text": "SYNTHETIC DEMO ONLY - fictional company, not real corporate evidence. Demo Manufacturing annual sustainability report. Published 2025-04-01. All figures below use the global consolidated group boundary and calendar-year periods. 2024 Scope 1 emissions: 12,000 tCO2e. 2024 Scope 2 (location-based) emissions: 3,000 tCO2e. 2024 Scope 2 (market-based) emissions: 1,000 tCO2e. 2024 Revenue: USD 200 million. We reduced emissions intensity by 20% compared with 2020. We aim to reduce absolute Scope 1 emissions by 30% by 2030 against 2020. Scope 1 emissions: 9,000 tCO2e. This line deliberately omits its year. This document is a pipeline test, not a source for investment decisions.",
+        "raw_source_text": "SYNTHETIC DEMO ONLY - fictional company, not real corporate evidence.\nDemo Manufacturing annual sustainability report. Published 2025-04-01.\nAll figures below use the global consolidated group boundary and calendar-year periods.\n2024 Scope 1 emissions: 12,000 tCO2e.\n2024 Scope 2 (location-based) emissions: 3,000 tCO2e.\n2024 Scope 2 (market-based) emissions: 1,000 tCO2e.\n2024 Revenue: USD 200 million.\nWe reduced emissions intensity by 20% compared with 2020.\nWe aim to reduce absolute Scope 1 emissions by 30% by 2030 against 2020.\nScope 1 emissions: 9,000 tCO2e. This line deliberately omits its year.\nThis document is a pipeline test, not a source for investment decisions.\n",
+        "char_start": 462,
+        "char_end": 534
+      },
+      "context": "SYNTHETIC DEMO ONLY - fictional company, not real corporate evidence. Demo Manufacturing annual sustainability report. Published 2025-04-01. All figures below use the global consolidated group boundary and calendar-year periods. 2024 Scope 1 emissions: 12,000 tCO2e. 2024 Scope 2 (location-based) emissions: 3,000 tCO2e. 2024 Scope 2 (market-based) emissions: 1,000 tCO2e. 2024 Revenue: USD 200 million. We reduced emissions intensity by 20% compared with 2020. We aim to reduce absolute Scope 1 emissions by 30% by 2030 against 2020. Scope 1 emissions: 9,000 tCO2e. This line deliberately omits its year. This document is a pipeline test, not a source for investment decisions.",
+      "review_status": "pending",
+      "available_at": "2025-04-01",
+      "extraction_method": "text_paragraph_sentence",
+      "needs_context_review": true,
+      "quality_flags": [],
+      "percentages_mentioned": [
+        "30%"
+      ],
+      "fields": {
+        "claim_type": "future_target",
+        "metric": "absolute_emissions",
+        "baseline_year": 2020,
+        "target_year": 2030,
+        "geography": null,
+        "organizational_boundary": null,
+        "assessment_status": "not_assessed"
+      },
+      "duplicate_group": "bd2afcab2ea44424"
+    }
+  ],
+  "warnings": [],
+  "skipped_candidates": [],
+  "quality_summary": {
+    "pages": 1,
+    "observation_candidates": 5,
+    "claim_candidates": 2,
+    "claims_needing_context_review": 2,
+    "incomplete_claim_candidates": 0,
+    "skipped_claim_candidates": 0,
+    "missing_numeric_values": 0,
+    "accuracy_measured": false,
+    "scoring_ready": false,
+    "publication_date_supplied_not_verified": true
+  },
+  "limitations": [
+    "Heuristic candidates, not exhaustive extraction or verified facts.",
+    "No OCR, multi-entity table inference, network fetch, or LLM calls.",
+    "Claim segments may be incomplete; context and boundary need review.",
+    "No B/G scores produced; claims still need independent evidence assessment."
+  ]
+}

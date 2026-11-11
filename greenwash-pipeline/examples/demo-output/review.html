@@ -1,0 +1,185 @@
+<!doctype html><html lang="zh"><meta charset="utf-8"><title>报告候选复核</title>
+<style>body{max-width:960px;margin:40px auto;padding:0 20px;font:16px system-ui;color:#173042;background:#f4f7fa}article{background:white;padding:24px;margin:20px 0;border:1px solid #ccd7e0;border-radius:10px}textarea{width:100%;font:14px monospace;box-sizing:border-box}input{padding:10px;margin:10px 0;width:90%}button,select{padding:10px}pre{white-space:pre-wrap}blockquote{border-left:4px solid #187a7a;padding-left:14px}header{background:#e0f0ec;padding:20px}</style>
+<header><h1>报告候选复核</h1><p>离线规则基线 · 所有候选均需复核 · 无真实公司评分</p><p>下载修改结果后运行 apply-review。页面刷新不会自动保存。</p>
+<input id="reviewer" placeholder="复核人（必填）"><button id="download">下载 decisions.json</button><p id="message"></p></header>
+<article data-id="8aba6e71ca793abf84c510be"><h3>observation · p1:4</h3>
+<blockquote>2024 Scope 1 emissions: 12,000 tCO2e.</blockquote><details><summary>上下文</summary><pre>Demo Manufacturing annual sustainability report. Published 2025-04-01.
+All figures below use the global consolidated group boundary and calendar-year periods.
+2024 Scope 1 emissions: 12,000 tCO2e.
+2024 Scope 2 (location-based) emissions: 3,000 tCO2e.
+2024 Scope 2 (market-based) emissions: 1,000 tCO2e.</pre></details>
+<details><summary>表头、分组与待复核脚注</summary><pre>{
+  &quot;header&quot;: null,
+  &quot;section_hint&quot;: null,
+  &quot;related_notes&quot;: [],
+  &quot;quality_flags&quot;: [],
+  &quot;bbox&quot;: null
+}</pre></details>
+<label>提取复核 <select><option value="pending">待复核</option><option value="accepted">确认提取</option><option value="rejected">拒绝候选</option></select></label>
+<p>修改下方 JSON；未知字段保留 null。确认提取不代表声明真实。</p>
+<textarea rows="13">{
+  &quot;metric&quot;: &quot;scope1&quot;,
+  &quot;value&quot;: 12000.0,
+  &quot;unit&quot;: &quot;tCO2e&quot;,
+  &quot;year&quot;: 2024,
+  &quot;geography&quot;: null,
+  &quot;organizational_boundary&quot;: null,
+  &quot;scope2_method&quot;: null,
+  &quot;period_basis&quot;: null
+}</textarea>
+<input class="note" placeholder="修改原因／复核说明"></article>
+<article data-id="577cfc3d41abe0d1669c7ec2"><h3>observation · p1:5</h3>
+<blockquote>2024 Scope 2 (location-based) emissions: 3,000 tCO2e.</blockquote><details><summary>上下文</summary><pre>All figures below use the global consolidated group boundary and calendar-year periods.
+2024 Scope 1 emissions: 12,000 tCO2e.
+2024 Scope 2 (location-based) emissions: 3,000 tCO2e.
+2024 Scope 2 (market-based) emissions: 1,000 tCO2e.
+2024 Revenue: USD 200 million.</pre></details>
+<details><summary>表头、分组与待复核脚注</summary><pre>{
+  &quot;header&quot;: null,
+  &quot;section_hint&quot;: null,
+  &quot;related_notes&quot;: [],
+  &quot;quality_flags&quot;: [],
+  &quot;bbox&quot;: null
+}</pre></details>
+<label>提取复核 <select><option value="pending">待复核</option><option value="accepted">确认提取</option><option value="rejected">拒绝候选</option></select></label>
+<p>修改下方 JSON；未知字段保留 null。确认提取不代表声明真实。</p>
+<textarea rows="13">{
+  &quot;metric&quot;: &quot;scope2&quot;,
+  &quot;value&quot;: 3000.0,
+  &quot;unit&quot;: &quot;tCO2e&quot;,
+  &quot;year&quot;: 2024,
+  &quot;geography&quot;: null,
+  &quot;organizational_boundary&quot;: null,
+  &quot;scope2_method&quot;: &quot;location-based&quot;,
+  &quot;period_basis&quot;: null
+}</textarea>
+<input class="note" placeholder="修改原因／复核说明"></article>
+<article data-id="ad53d04b00d270060790ea2c"><h3>observation · p1:6</h3>
+<blockquote>2024 Scope 2 (market-based) emissions: 1,000 tCO2e.</blockquote><details><summary>上下文</summary><pre>2024 Scope 1 emissions: 12,000 tCO2e.
+2024 Scope 2 (location-based) emissions: 3,000 tCO2e.
+2024 Scope 2 (market-based) emissions: 1,000 tCO2e.
+2024 Revenue: USD 200 million.
+We reduced emissions intensity by 20% compared with 2020.</pre></details>
+<details><summary>表头、分组与待复核脚注</summary><pre>{
+  &quot;header&quot;: null,
+  &quot;section_hint&quot;: null,
+  &quot;related_notes&quot;: [],
+  &quot;quality_flags&quot;: [],
+  &quot;bbox&quot;: null
+}</pre></details>
+<label>提取复核 <select><option value="pending">待复核</option><option value="accepted">确认提取</option><option value="rejected">拒绝候选</option></select></label>
+<p>修改下方 JSON；未知字段保留 null。确认提取不代表声明真实。</p>
+<textarea rows="13">{
+  &quot;metric&quot;: &quot;scope2&quot;,
+  &quot;value&quot;: 1000.0,
+  &quot;unit&quot;: &quot;tCO2e&quot;,
+  &quot;year&quot;: 2024,
+  &quot;geography&quot;: null,
+  &quot;organizational_boundary&quot;: null,
+  &quot;scope2_method&quot;: &quot;market-based&quot;,
+  &quot;period_basis&quot;: null
+}</textarea>
+<input class="note" placeholder="修改原因／复核说明"></article>
+<article data-id="796887f90de275d0bafc8f85"><h3>observation · p1:7</h3>
+<blockquote>2024 Revenue: USD 200 million.</blockquote><details><summary>上下文</summary><pre>2024 Scope 2 (location-based) emissions: 3,000 tCO2e.
+2024 Scope 2 (market-based) emissions: 1,000 tCO2e.
+2024 Revenue: USD 200 million.
+We reduced emissions intensity by 20% compared with 2020.
+We aim to reduce absolute Scope 1 emissions by 30% by 2030 against 2020.</pre></details>
+<details><summary>表头、分组与待复核脚注</summary><pre>{
+  &quot;header&quot;: null,
+  &quot;section_hint&quot;: null,
+  &quot;related_notes&quot;: [],
+  &quot;quality_flags&quot;: [],
+  &quot;bbox&quot;: null
+}</pre></details>
+<label>提取复核 <select><option value="pending">待复核</option><option value="accepted">确认提取</option><option value="rejected">拒绝候选</option></select></label>
+<p>修改下方 JSON；未知字段保留 null。确认提取不代表声明真实。</p>
+<textarea rows="13">{
+  &quot;metric&quot;: &quot;revenue&quot;,
+  &quot;value&quot;: 200000000.0,
+  &quot;unit&quot;: &quot;USD&quot;,
+  &quot;year&quot;: 2024,
+  &quot;geography&quot;: null,
+  &quot;organizational_boundary&quot;: null,
+  &quot;scope2_method&quot;: null,
+  &quot;period_basis&quot;: null
+}</textarea>
+<input class="note" placeholder="修改原因／复核说明"></article>
+<article data-id="ee80449463ad46fc86b8d474"><h3>observation · p1:10</h3>
+<blockquote>Scope 1 emissions: 9,000 tCO2e. This line deliberately omits its year.</blockquote><details><summary>上下文</summary><pre>We reduced emissions intensity by 20% compared with 2020.
+We aim to reduce absolute Scope 1 emissions by 30% by 2030 against 2020.
+Scope 1 emissions: 9,000 tCO2e. This line deliberately omits its year.
+This document is a pipeline test, not a source for investment decisions.</pre></details>
+<details><summary>表头、分组与待复核脚注</summary><pre>{
+  &quot;header&quot;: null,
+  &quot;section_hint&quot;: null,
+  &quot;related_notes&quot;: [],
+  &quot;quality_flags&quot;: [],
+  &quot;bbox&quot;: null
+}</pre></details>
+<label>提取复核 <select><option value="pending">待复核</option><option value="accepted">确认提取</option><option value="rejected">拒绝候选</option></select></label>
+<p>修改下方 JSON；未知字段保留 null。确认提取不代表声明真实。</p>
+<textarea rows="13">{
+  &quot;metric&quot;: &quot;scope1&quot;,
+  &quot;value&quot;: 9000.0,
+  &quot;unit&quot;: &quot;tCO2e&quot;,
+  &quot;year&quot;: null,
+  &quot;geography&quot;: null,
+  &quot;organizational_boundary&quot;: null,
+  &quot;scope2_method&quot;: null,
+  &quot;period_basis&quot;: null
+}</textarea>
+<input class="note" placeholder="修改原因／复核说明"></article>
+<article data-id="a9f0d33c69564ee5757d4de7"><h3>claim · p1 · p1-b0</h3>
+<blockquote>We reduced emissions intensity by 20% compared with 2020.</blockquote><details><summary>上下文</summary><pre>SYNTHETIC DEMO ONLY - fictional company, not real corporate evidence. Demo Manufacturing annual sustainability report. Published 2025-04-01. All figures below use the global consolidated group boundary and calendar-year periods. 2024 Scope 1 emissions: 12,000 tCO2e. 2024 Scope 2 (location-based) emissions: 3,000 tCO2e. 2024 Scope 2 (market-based) emissions: 1,000 tCO2e. 2024 Revenue: USD 200 million. We reduced emissions intensity by 20% compared with 2020. We aim to reduce absolute Scope 1 emissions by 30% by 2030 against 2020. Scope 1 emissions: 9,000 tCO2e. This line deliberately omits its year. This document is a pipeline test, not a source for investment decisions.</pre></details>
+<details><summary>表头、分组与待复核脚注</summary><pre>{
+  &quot;header&quot;: null,
+  &quot;section_hint&quot;: null,
+  &quot;related_notes&quot;: [],
+  &quot;quality_flags&quot;: [],
+  &quot;bbox&quot;: null
+}</pre></details>
+<label>提取复核 <select><option value="pending">待复核</option><option value="accepted">确认提取</option><option value="rejected">拒绝候选</option></select></label>
+<p>修改下方 JSON；未知字段保留 null。确认提取不代表声明真实。</p>
+<textarea rows="13">{
+  &quot;claim_type&quot;: &quot;realized_result&quot;,
+  &quot;metric&quot;: &quot;intensity&quot;,
+  &quot;baseline_year&quot;: 2020,
+  &quot;target_year&quot;: null,
+  &quot;geography&quot;: null,
+  &quot;organizational_boundary&quot;: null,
+  &quot;assessment_status&quot;: &quot;not_assessed&quot;
+}</textarea>
+<input class="note" placeholder="修改原因／复核说明"></article>
+<article data-id="6c9ee7ebd9c7bcbfe4565b52"><h3>claim · p1 · p1-b0</h3>
+<blockquote>We aim to reduce absolute Scope 1 emissions by 30% by 2030 against 2020.</blockquote><details><summary>上下文</summary><pre>SYNTHETIC DEMO ONLY - fictional company, not real corporate evidence. Demo Manufacturing annual sustainability report. Published 2025-04-01. All figures below use the global consolidated group boundary and calendar-year periods. 2024 Scope 1 emissions: 12,000 tCO2e. 2024 Scope 2 (location-based) emissions: 3,000 tCO2e. 2024 Scope 2 (market-based) emissions: 1,000 tCO2e. 2024 Revenue: USD 200 million. We reduced emissions intensity by 20% compared with 2020. We aim to reduce absolute Scope 1 emissions by 30% by 2030 against 2020. Scope 1 emissions: 9,000 tCO2e. This line deliberately omits its year. This document is a pipeline test, not a source for investment decisions.</pre></details>
+<details><summary>表头、分组与待复核脚注</summary><pre>{
+  &quot;header&quot;: null,
+  &quot;section_hint&quot;: null,
+  &quot;related_notes&quot;: [],
+  &quot;quality_flags&quot;: [],
+  &quot;bbox&quot;: null
+}</pre></details>
+<label>提取复核 <select><option value="pending">待复核</option><option value="accepted">确认提取</option><option value="rejected">拒绝候选</option></select></label>
+<p>修改下方 JSON；未知字段保留 null。确认提取不代表声明真实。</p>
+<textarea rows="13">{
+  &quot;claim_type&quot;: &quot;future_target&quot;,
+  &quot;metric&quot;: &quot;absolute_emissions&quot;,
+  &quot;baseline_year&quot;: 2020,
+  &quot;target_year&quot;: 2030,
+  &quot;geography&quot;: null,
+  &quot;organizational_boundary&quot;: null,
+  &quot;assessment_status&quot;: &quot;not_assessed&quot;
+}</textarea>
+<input class="note" placeholder="修改原因／复核说明"></article><script>
+const documentId = "db71b3baaebb006f4a5e5c5b";
+document.getElementById('download').onclick=()=>{try{
+const reviewer=document.getElementById('reviewer').value.trim();if(!reviewer)throw Error('请输入复核人');
+const decisions=[...document.querySelectorAll('article')].map(a=>({id:a.dataset.id,status:a.querySelector('select').value,fields:JSON.parse(a.querySelector('textarea').value),note:a.querySelector('.note').value}));
+const data={document_id:documentId,reviewer,decisions};
+const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));
+const link=document.createElement('a');link.href=url;link.download='decisions.json';link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+document.getElementById('message').textContent='已导出；运行 apply-review 校验并生成正式数据。';
+}catch(e){document.getElementById('message').textContent=e.message;}};
+</script></html>

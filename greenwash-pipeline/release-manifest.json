@@ -1,0 +1,39 @@
+{
+  "version": "0.5.0",
+  "schema_version": "1.2",
+  "python": "3.12.3",
+  "pymupdf": "1.26.6",
+  "freeze_before_new_user_report": true,
+  "notes": "v0.5 rebuild on a clean baseline. Adds a language layer (greenwash/lang.py) so the same rules read English, Traditional Chinese (Taiwan) and Simplified Chinese (mainland) reports: 民國 years, Chinese magnitude units (公噸/萬噸/百萬噸/億噸), Chinese scope labels (範疇一/范围一/間接排放) and Chinese claim verbs. Output schema is unchanged (1.2). English behaviour is unchanged: the 52 pre-existing tests pass unmodified. Verified on 8 real Taiwan sustainability reports: claim candidates 190 -> 1234, numeric observations 0 -> 6 (TSMC p228). The other 7 reports lay the scopes out as columns, which this one-series parser still abstains on by design. examples/* are frozen v0.4 artifacts and were not regenerated: the PDF path needs Poppler's pdftotext, which the build host does not have.",
+  "sha256": {
+    "greenwash/__init__.py": "77d5105854146887ea59783b5a27314607c8703ea353774523254d1221d2830c",
+    "greenwash/__main__.py": "75ffbfbfeccfd1ea336fb962ed3cc44afb714dec80e57587e016986cbbb09ef2",
+    "greenwash/claims.py": "0bed977ec353e358832d718842d0ce6ffae946071b2c854138fd7b4771de72cb",
+    "greenwash/evaluate.py": "fa3d1d76342ec3e23a6936a6b740e0d99449ad49fcd914ac86be84e11ad64711",
+    "greenwash/lang.py": "c1607f604abaa680a047310eab405baaa5891d360041355ef4603e59c820de2d",
+    "greenwash/layout.py": "4291b3f30616bbb65ae5fe2e44ff5030ad683e8f67a468203d03bc9575396b5e",
+    "greenwash/pipeline.py": "505d2d30206dac7afabdb509fa0209825befa37762c98784f655e52e857070c7",
+    "greenwash/tables.py": "b723f0e2e0f6d72025c89163709ce67d7048180859f3555036efe1e6d42f68c2",
+    "pyproject.toml": "3b151b23cd4336b20973bc83552482a9af6c238b2d74fa61c22977bedb062fad",
+    "requirements-pdf.txt": "cf91175017e34defc9e4ce2d11a73fbabd4d50ccf5589b83b558b474c9753670",
+    "tests/test_evaluate.py": "c4bc7182b458d143f5a762c8407f5861ea36555681d9e0449c3b5ca5d6c4e282",
+    "tests/test_multilingual.py": "812e58ce8369acce54f7a4d39d7363b29880b7862cf99f56fdf07ec76fdc8ae9",
+    "tests/test_packaging.py": "4b5ee12edf5cf1a50ab15af0cd2a9db39d853bda1480a1a7bb27c9b232b929ad",
+    "tests/test_pipeline.py": "5627ffc0974807f537ce00f31d5a50dd8fec3761f94872a0f45ef99fde8472dc",
+    "tests/test_robustness.py": "0f8c78af2ac582e45b6028be313019d62d8c4835192e4c0e1bae6f36937b49c5",
+    "tests/test_tables.py": "fcd943e993b4216913552005068ca34c84f6b64c9c6ee0c4f1dae312c5706e7b"
+  },
+  "packaging": {
+    "distribution": "greenwash-pipeline",
+    "import": "greenwash",
+    "version_source": "greenwash/__init__.py (pyproject uses dynamic version)",
+    "console_script": "greenwash",
+    "extras": {
+      "pdf": [
+        "PyMuPDF>=1.26"
+      ]
+    },
+    "system_dependency": "Poppler pdftotext (PDF input only; cannot be declared in metadata)",
+    "verified": "uv build -> wheel contains only greenwash/; installed into a clean venv; console script, extract and apply-review all run outside the source tree"
+  }
+}

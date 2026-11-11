@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.2",
+  "document": {
+    "id": "db71b3baaebb006f4a5e5c5b",
+    "company_id": "DEMO",
+    "filename": "synthetic_report.txt",
+    "sha256": "622989fa79f554891c94bfb5bcc8e5e5357b0f0ea2d82355bc92cf7a4bd731f5",
+    "published_at": "2025-04-01",
+    "publication_date_source": "user_supplied_not_independently_verified",
+    "synthetic": true
+  },
+  "as_of": "2026-10-03",
+  "scoring_ready": false,
+  "records": [
+    {
+      "company_id": "DEMO",
+      "evidence": {
+        "document_id": "db71b3baaebb006f4a5e5c5b",
+        "page": 1,
+        "line": 4,
+        "quote": "2024 Scope 1 emissions: 12,000 tCO2e."
+      },
+      "context": "Demo Manufacturing annual sustainability report. Published 2025-04-01.\nAll figures below use the global consolidated group boundary and calendar-year periods.\n2024 Scope 1 emissions: 12,000 tCO2e.\n2024 Scope 2 (location-based) emissions: 3,000 tCO2e.\n2024 Scope 2 (market-based) emissions: 1,000 tCO2e.",
+      "review_status": "accepted",
+      "available_at": "2025-04-01",
+      "id": "8aba6e71ca793abf84c510be",
+      "kind": "observation",
+      "fields": {
+        "metric": "scope1",
+        "value": 12000.0,
+        "unit": "tCO2e",
+        "year": 2024,
+        "geography": "global",
+        "organizational_boundary": "consolidated_group",
+        "scope2_method": null,
+        "period_basis": "calendar_year"
+      },
+      "review": {
+        "reviewer": "SYNTHETIC_DEMO_REVIEWER",
+        "note": "Synthetic demonstration only.",
+        "original_fields": {
+          "metric": "scope1",
+          "value": 12000.0,
+          "unit": "tCO2e",
+          "year": 2024,
+          "geography": null,
+          "organizational_boundary": null,
+          "scope2_method": null,
+          "period_basis": null
+        }
+      }
+    },
+    {
+      "company_id": "DEMO",
+      "evidence": {
+        "document_id": "db71b3baaebb006f4a5e5c5b",
+        "page": 1,
+        "line": 5,
+        "quote": "2024 Scope 2 (location-based) emissions: 3,000 tCO2e."
+      },
+      "context": "All figures below use the global consolidated group boundary and calendar-year periods.\n2024 Scope 1 emissions: 12,000 tCO2e.\n2024 Scope 2 (location-based) emissions: 3,000 tCO2e.\n2024 Scope 2 (market-based) emissions: 1,000 tCO2e.\n2024 Revenue: USD 200 million.",
+      "review_status": "accepted",
+      "available_at": "2025-04-01",
+      "id": "577cfc3d41abe0d1669c7ec2",
+      "kind": "observation",
+      "fields": {
+        "metric": "scope2",
+        "value": 3000.0,
+        "unit": "tCO2e",
+        "year": 2024,
+        "geography": "global",
+        "organizational_boundary": "consolidated_group",
+        "scope2_method": "location-based",
+        "period_basis": "calendar_year"
+      },
+      "review": {
+        "reviewer": "SYNTHETIC_DEMO_REVIEWER",
+        "note": "Synthetic demonstration only.",
+        "original_fields": {
+          "metric": "scope2",
+          "value": 3000.0,
+          "unit": "tCO2e",
+          "year": 2024,
+          "geography": null,
+          "organizational_boundary": null,
+          "scope2_method": "location-based",
+          "period_basis": null
+        }
+      }
+    },
+    {
+      "company_id": "DEMO",
+      "evidence": {
+        "document_id": "db71b3baaebb006f4a5e5c5b",
+        "page": 1,
+        "line": 6,
+        "quote": "2024 Scope 2 (market-based) emissions: 1,000 tCO2e."
+      },
+      "context": "2024 Scope 1 emissions: 12,000 tCO2e.\n2024 Scope 2 (location-based) emissions: 3,000 tCO2e.\n2024 Scope 2 (market-based) emissions: 1,000 tCO2e.\n2024 Revenue: USD 200 million.\nWe reduced emissions intensity by 20% compared with 2020.",
+      "review_status": "accepted",
+      "available_at": "2025-04-01",
+      "id": "ad53d04b00d270060790ea2c",
+      "kind": "observation",
+      "fields": {
+        "metric": "scope2",
+        "value": 1000.0,
+        "unit": "tCO2e",
+        "year": 2024,
+        "geography": "global",
+        "organizational_boundary": "consolidated_group",
+        "scope2_method": "market-based",
+        "period_basis": "calendar_year"
+      },
+      "review": {
+        "reviewer": "SYNTHETIC_DEMO_REVIEWER",
+        "note": "Synthetic demonstration only.",
+        "original_fields": {
+          "metric": "scope2",
+          "value": 1000.0,
+          "unit": "tCO2e",
+          "year": 2024,
+          "geography": null,
+          "organizational_boundary": null,
+          "scope2_method": "market-based",
+          "period_basis": null
+        }
+      }
+    },
+    {
+      "company_id": "DEMO",
+      "evidence": {
+        "document_id": "db71b3baaebb006f4a5e5c5b",
+        "page": 1,
+        "line": 7,
+        "quote": "2024 Revenue: USD 200 million."
+      },
+      "context": "2024 Scope 2 (location-based) emissions: 3,000 tCO2e.\n2024 Scope 2 (market-based) emissions: 1,000 tCO2e.\n2024 Revenue: USD 200 million.\nWe reduced emissions intensity by 20% compared with 2020.\nWe aim to reduce absolute Scope 1 emissions by 30% by 2030 against 2020.",
+      "review_status": "accepted",
+      "available_at": "2025-04-01",
+      "id": "796887f90de275d0bafc8f85",
+      "kind": "observation",
+      "fields": {
+        "metric": "revenue",
+        "value": 200000000.0,
+        "unit": "USD",
+        "year": 2024,
+        "geography": "global",
+        "organizational_boundary": "consolidated_group",
+        "scope2_method": null,
+        "period_basis": "calendar_year"
+      },
+      "review": {
+        "reviewer": "SYNTHETIC_DEMO_REVIEWER",
+        "note": "Synthetic demonstration only.",
+        "original_fields": {
+          "metric": "revenue",
+          "value": 200000000.0,
+          "unit": "USD",
+          "year": 2024,
+          "geography": null,
+          "organizational_boundary": null,
+          "scope2_method": null,
+          "period_basis": null
+        }
+      }
+    }
+  ]
+}
